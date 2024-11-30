@@ -5,22 +5,16 @@ import Projects from "../projects/page";
 import About from "../about/page";
 import Contact from "../contact/page";
 
-
-
-
-
-
 export default function Hero () {
     return (
         <div className = "bg-[#5d5864] w-full h-[620px]">
-            
             
             {/* INTRO DESCRIPTION SECTION */}
 
             <div className = "heroTitleDescription">
                 <p className = "text-[#d1888a] text-center text-[110px] font-bold font-sans">FRONT END DEVELOPER</p>
                 <p className = "w-[87%] text-center ml-[82px] -mt-[20px] text-[18px] text-[#1d1d1d] font-bold">
-                Welcome to my portfolio! I'm a passionate Front-End Developer with expertise in building 
+                Welcome to my portfolio! I am a passionate Front-End Developer with expertise in building 
                 sleek, responsive, and user-friendly web experiences. With a strong foundation in <span className = "text-[#d1888a]">HTML, CSS, 
                 Tailwind , NextJS , Typescript.</span> I craft visually stunning and performant layouts
                 </p> 
